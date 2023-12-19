@@ -24,4 +24,4 @@ ENV PATH "$PATH:/kepler.gl/examples/demo-app/node_modules/.bin"
 
 EXPOSE 80
 
-CMD ["webpack-dev-server", "--progress", "--port", "80", "--host", "0.0.0.0", "--allowed-hosts", "all"]
+CMD ["webpack-dev-server", "--progress", "--port", "80", "--port", "8080", "--host", "0.0.0.0", "--allowed-hosts", "all"]
