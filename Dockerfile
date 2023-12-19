@@ -1,4 +1,5 @@
-FROM node:13.10.1-alpine3.11
+#FROM node:13.10.1-alpine3.11
+FROM node:16-alpine
 
 LABEL maintainer="Stefan Kuethe <crazycapivara@gmail.com>"
 

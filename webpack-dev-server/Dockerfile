@@ -1,4 +1,4 @@
-FROM node:8.13.0-alpine
+FROM node:16-alpine
 
 LABEL maintainer="Stefan Kuethe <crazycapivara@gmail.com>"
 
